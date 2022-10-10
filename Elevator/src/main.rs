@@ -19,7 +19,7 @@ fn start() {
         return;
     } 
 
-    loop { 
+    for _x in 0..30 { 
         let cmd = args[1].to_owned();
         let mut new_console = false;
 
